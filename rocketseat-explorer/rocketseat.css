@@ -3,6 +3,7 @@
 /* O asterisco é o seletor universal. Nele podemos fazer o reset do estilo de uma página */
 * {
     margin: 0;
+    box-sizing: border-box;
   }
   
   body {
@@ -17,6 +18,18 @@
     width: 80%;
     max-width: 400px;
     margin-inline: auto;
+  }
+
+  #answer{
+    margin-top: 30px;
+    transition: opacity 1s;
+  }
+
+  #answer div{
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.9;
+    margin-bottom: 10px;
   }
   
   h1{
